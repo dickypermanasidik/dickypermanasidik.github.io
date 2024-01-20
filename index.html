@@ -1,0 +1,184 @@
+<html>
+<head>
+    <title>TUGAS DICKY PERMANA SIDIK</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #1da646;
+            color: white;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+
+        nav {
+            background-color: #33a765;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        nav .search {
+            margin-right: 20px;
+        }
+
+        nav .search input {
+            width: 200px;
+            height: 20px;
+            border: none;
+            border-radius: 10px;
+            padding: 5px;
+            outline: none;
+        }
+
+        section {
+            margin: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        section .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        section .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        section .card .content {
+            padding: 20px;
+        }
+
+        section .card .content h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        section .card .content p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        section .card .content a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+        }
+
+        section .card .content a:hover {
+            color: #444;
+            border-bottom: 2px solid #444;
+        }
+
+        footer {
+            background-color: #1da646;
+            color: white;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">TUGAS DICKY PERMANA SIDIK</div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+            </div>
+        </nav>
+        <section>
+            <div class="card">
+                <img src="DOA.jpg" alt="Image 1">
+                <div class="content">
+                    <h3>TUGAS 1</h3>
+                    <p>TUGAS DZIKIR DAN DOA</p>
+                    <audio controls>
+                        <source src="dzikirdoa.mp3" type="audio/mpeg">
+                      </audio>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="YASSIN.png" alt="Image 2">
+                <div class="content">
+                    <h3>TUGAS 2</h3>
+                    <p>MEMBACA YASSIN</p>
+                    <audio controls>
+                        <source src="yassin.mp3" type="audio/mpeg">
+                      </audio>
+                      
+                </div>
+            </div>
+        </section>
+        <h3>TUGAS 3</h3>
+        <p>TOLERANSI ANTAR UMAT BERAGAMA</p>
+        <embed type="application/pdf" src="tugas makalah toleransi antar umat beragama dicky.pdf" width="600" height="400">
+        <footer>
+            <p>© 2024 DICKY PERMANA SIDIK.</p>
+        </footer>
+    </div>
+</body>
+</html>
